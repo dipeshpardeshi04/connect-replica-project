@@ -19,8 +19,8 @@ const Header = () => {
 
           {/* Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            <a href="#" className="text-orange-500 hover:text-orange-600 font-medium">HOME</a>
-            <a href="#" className="text-gray-700 hover:text-orange-500">ABOUT US</a>
+            <a href="/" className="text-orange-500 hover:text-orange-600 font-medium">HOME</a>
+            <a href="/about" className="text-gray-700 hover:text-orange-500">ABOUT US</a>
             <div className="relative group">
               <a href="#" className="text-gray-700 hover:text-orange-500 flex items-center">
                 SERVICES
