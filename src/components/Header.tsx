@@ -31,7 +31,7 @@ const Header = () => {
             
             {/* Services Dropdown */}
             <DropdownMenu>
-              <DropdownMenuTrigger className="text-orange-500 hover:text-orange-600 flex items-center font-medium">
+              <DropdownMenuTrigger className="text-gray-700 hover:text-orange-500 flex items-center font-medium">
                 SERVICES
                 <ChevronDown className="w-4 h-4 ml-1" />
               </DropdownMenuTrigger>
@@ -45,10 +45,10 @@ const Header = () => {
               </DropdownMenuContent>
             </DropdownMenu>
             
-            <a href="#" className="text-gray-700 hover:text-orange-500">CLIENTELE</a>
-            <a href="#" className="text-gray-700 hover:text-orange-500">SOLUTIONS</a>
-            <a href="#" className="text-gray-700 hover:text-orange-500">SOFTWARE</a>
-            <a href="#" className="text-gray-700 hover:text-orange-500">CONTACT</a>
+            <a href="/clientele" className="text-gray-700 hover:text-orange-500">CLIENTELE</a>
+            <a href="/solutions" className="text-gray-700 hover:text-orange-500">SOLUTIONS</a>
+            <a href="/software" className="text-gray-700 hover:text-orange-500">SOFTWARE</a>
+            <a href="/contact" className="text-gray-700 hover:text-orange-500">CONTACT</a>
           </nav>
         </div>
       </div>
