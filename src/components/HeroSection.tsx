@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 const HeroSection = () => {
   return (
-    <section className="bg-gradient-to-r from-gray-800 via-gray-700 to-gray-900 text-white py-20">
+    <section className="bg-gradient-to-b from-[#0a0f1f] via-[#1b1e2f] to-[#4a1d0d] text-white py-20">
       <div className="container mx-auto px-4 text-center">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-6xl font-bold mb-4">Megabyte Systems</h1>
@@ -16,7 +16,7 @@ const HeroSection = () => {
             <Button className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 rounded-md font-medium">
               Our Services →
             </Button>
-            <Button variant="outline" className="border-white text-white hover:bg-white hover:text-gray-900 px-8 py-3 rounded-md">
+            <Button variant="outline" className="border-white text-orange-500 hover:bg-white hover:text-orange-400 px-8 py-3 rounded-md">
               Learn More
             </Button>
           </div>
