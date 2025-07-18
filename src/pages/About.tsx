@@ -18,15 +18,15 @@ const About = () => {
       {/* Who We Are Section */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto text-center">
+          <div className="max-w-5xl mx-auto text-center">
             <h2 className="text-3xl font-bold text-gray-900 mb-8">Who We Are</h2>
-            <p className="text-gray-600 mb-6 leading-relaxed">
+            <p className="text-gray-600 mb-6 leading-relaxed text-lg">
               Megabyte Systems is a leading provider of comprehensive IT solutions, specializing in IT Facility Management, 
               System Integration, Network Solutions, and Business Software Development. With years of experience serving 
               diverse sectors including government, private enterprises, and educational institutions, we have established 
               ourselves as a trusted technology partner.
             </p>
-            <p className="text-gray-600 leading-relaxed">
+            <p className="text-gray-600 leading-relaxed text-lg">
               Our expertise spans across Hardware Solutions, Communication Solutions, Networks, and cutting-edge software 
               development, making us your one-stop solution for all IT needs.
             </p>
@@ -38,8 +38,8 @@ const About = () => {
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-gray-900 text-center mb-12">Our Core Values</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-            <div className="bg-white p-6 rounded-lg shadow-sm">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+            <div className="bg-white p-8 rounded-lg shadow-sm">
               <div className="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center mb-4">
                 <Target className="w-6 h-6 text-orange-500" />
               </div>
@@ -50,7 +50,7 @@ const About = () => {
               </p>
             </div>
             
-            <div className="bg-white p-6 rounded-lg shadow-sm">
+            <div className="bg-white p-8 rounded-lg shadow-sm">
               <div className="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center mb-4">
                 <Users className="w-6 h-6 text-orange-500" />
               </div>
@@ -61,7 +61,7 @@ const About = () => {
               </p>
             </div>
             
-            <div className="bg-white p-6 rounded-lg shadow-sm">
+            <div className="bg-white p-8 rounded-lg shadow-sm">
               <div className="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center mb-4">
                 <Shield className="w-6 h-6 text-orange-500" />
               </div>
@@ -72,7 +72,7 @@ const About = () => {
               </p>
             </div>
             
-            <div className="bg-white p-6 rounded-lg shadow-sm">
+            <div className="bg-white p-8 rounded-lg shadow-sm">
               <div className="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center mb-4">
                 <Clock className="w-6 h-6 text-orange-500" />
               </div>
@@ -90,7 +90,7 @@ const About = () => {
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-gray-900 text-center mb-12">What Sets Us Apart</h2>
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
             <div className="space-y-6">
               <div className="flex items-start space-x-4">
                 <div className="w-8 h-8 bg-orange-500 rounded-full flex items-center justify-center flex-shrink-0">

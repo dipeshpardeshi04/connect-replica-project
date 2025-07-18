@@ -1,5 +1,12 @@
 
 import { Button } from "@/components/ui/button";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
+import { ChevronDown } from "lucide-react";
 
 const Header = () => {
   return (
@@ -21,14 +28,23 @@ const Header = () => {
           <nav className="hidden md:flex items-center space-x-8">
             <a href="/" className="text-orange-500 hover:text-orange-600 font-medium">HOME</a>
             <a href="/about" className="text-gray-700 hover:text-orange-500">ABOUT US</a>
-            <div className="relative group">
-              <a href="#" className="text-gray-700 hover:text-orange-500 flex items-center">
+            
+            {/* Services Dropdown */}
+            <DropdownMenu>
+              <DropdownMenuTrigger className="text-orange-500 hover:text-orange-600 flex items-center font-medium">
                 SERVICES
-                <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                </svg>
-              </a>
-            </div>
+                <ChevronDown className="w-4 h-4 ml-1" />
+              </DropdownMenuTrigger>
+              <DropdownMenuContent className="bg-white border shadow-lg">
+                <DropdownMenuItem>
+                  <a href="/services" className="text-gray-700 hover:text-orange-500 w-full">All Services</a>
+                </DropdownMenuItem>
+                <DropdownMenuItem>
+                  <a href="#" className="text-gray-700 hover:text-orange-500 w-full">IT Development</a>
+                </DropdownMenuItem>
+              </DropdownMenuContent>
+            </DropdownMenu>
+            
             <a href="#" className="text-gray-700 hover:text-orange-500">CLIENTELE</a>
             <a href="#" className="text-gray-700 hover:text-orange-500">SOLUTIONS</a>
             <a href="#" className="text-gray-700 hover:text-orange-500">SOFTWARE</a>
